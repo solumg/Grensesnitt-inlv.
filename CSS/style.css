@@ -1,0 +1,185 @@
+body {
+    margin: auto;
+    padding: 10px;
+    width: 960px;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.col1 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.col2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-top: 2px solid gray;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+#btn1 {
+    margin-right: 7.5px;
+}
+
+/*
+#btn2 {
+    margin-left: 7.5px;
+}
+*/
+#btn3 {
+    margin-left: 7.5px;
+}
+
+#infoBtn1 {
+    width: 100px;
+    float: right;
+    clear: right;
+    position: relative;
+    bottom: 60px;
+    
+}
+#helpBtn1 {
+    width: 100px;
+    float: right;
+    clear: right;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    
+}
+
+nav:after {
+    content: ' ';
+    height: 0;
+    display: block;
+    visibility: none;
+    clear: both;
+}
+
+nav button {
+    border: 0;
+    border: 2px solid gray;
+    background: 0;
+    height: 40px;
+    float: left;
+    width: 315px;
+    color: inherit;
+}
+button:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+#foterText {
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
+
+/*
+.helpList {
+    border: 2px solid gray;
+    background-color: pink;
+    list-style-type: none;
+}
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+    color: black;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    border: 2px solid gray;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Change the link color on hover */
+li:hover {
+    background-color: rgb(214,214,214);
+    border: 2px solid black;
+    cursor: pointer;
+/*    color: white;*/
+}
+/*----Content in page 2----*/
+.post-container{
+    padding: 15px;
+    margin: 15px 0 0 0;
+    border: 2px solid white;
+}
+/*
+.post-container:hover{
+    border: 2px solid gray;
+    cursor: pointer;
+}
+*/
+
+.post-thumb img {
+    float: left;
+    clear: left;
+    margin-right: 8px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    
+}
+
+.post-title {
+    padding-left: 15%;
+}
+#helperName {
+    font-size: 20px;
+}
+.post-content {
+    padding-left: 15%;
+}
+.clear {
+    clear:both;
+}
+
+.post-container2 {
+    padding: 15px;
+    margin: 15px 0 0 0;
+    border: 2px solid white;
+   
+}
+/*----End content----*/
+
+.mainInfoTitle {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.post-info {
+    padding-left: 15%;
+    margin-top: 30px;
+}
+.textInputInfo {
+/*    color: gray;*/
+    font-family: monospace;
+    margin: 0;
+}
+.textInputField {
+    width: 300px;
+    height: 30px;
+}
+
+#mainPageFoter {
+    background-color: white;
+    clear: both;
+	position: absolute;
+	bottom: 0;
+    width: 960px;
+    overflow: hidden;
+}

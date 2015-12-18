@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Studenthjelpen</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script type="text/javascript" src="JS/jquery.js"></script>
+    <script type="text/javascript" src="JS/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <header id="mainPageHeader" class="col1">
+            <h1>Studiehjelpen</h1>
+        </header>
+        
+        <nav>
+            <button id="btn1" data-target="main">Forside</button>
+            <button id="btn2" data-target="needHelp">Få hjelp</button>
+            <button id="btn3" data-target="giveHelp">Gi hjelp</button>
+        </nav>
+
+        
+        
+        <section class="main section active">
+            <h1>Velkommen</h1>
+            <p>Her på Studiehjelpen ønsker vi og tilby alle elver en mulighet til og lære, eller lære bort kunnskap. </p>
+        </section>
+        
+        
+<!-------------------------------NEEDHELP--------------------------------->
+        <section class="needHelp section">
+            <div class="post-container">
+                <ul>
+                    <li class="helpList">
+                        <p class="mainInfoTitle">C-programmering</p>
+                        <p>4 hjelpere</p>
+                    </li>
+                    <li class="helpList">
+                        <p class="mainInfoTitle">TV-regi</p>
+                        <p>2 hjelpere</p>
+                    </li>
+                    <li class="helpList">
+                        <p class="mainInfoTitle">Vitseskriving 2</p>
+                        <p>1 hjelpere</p>
+                    </li>
+                    <li class="helpList">
+                        <p class="mainInfoTitle">Grensesnittdesign</p>
+                        <p>1 hjelpere</p>
+                    </li>
+                    <li class="helpList">
+                        <p class="mainInfoTitle">JavaScript for Wii</p>
+                        <p>1 hjelpere</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        
+        
+<!---------------------------GIVE HELP--------------------------------->
+        <section class="giveHelp section">
+            
+                <div class="post-container">
+                    <div class="post-thumb">
+                        <img src="images/p1.png">
+                    </div>
+                    <div class="post-title">
+                        <h3 id="helperName">Mona L.</h3>
+                    </div>
+                    <div class="post-content">
+                        <p>Kan C og vitseskriving. Liker øl.</p>
+                    </div>
+                    <nav>
+                        <button id="infoBtn1" data-target="infoSite1">Info</button>
+                    </nav>
+                    <div class="clear"></div> 
+                </div>
+            
+                <div class="post-container">
+                    <div class="post-thumb">
+                        <img src="images/p2.png">
+                    </div>
+                    <div class="post-title">
+                        <h3 id="helperName">Harald J.</h3>
+                    </div>
+                    <div class="post-content">
+                        <p>Kan C, Java og SQL.</p>
+                    </div>
+                    <nav>
+                        <button id="infoBtn1" data-target="infoSite2">Info</button>
+                    </nav>
+                    <div class="clear"></div> 
+                </div> 
+            
+        </section>
+        
+        <footer id="mainPageFoter" class="col2">
+            <p id="foterText">Kontakt: Westerdals ACT telefon: 22 05 75 50 e-post: post@westerdals.no</p></footer>
+    
+        
+        
+<!-------------------------------INFOSITES----------------------------------->
+        <section class="infoSite1 section">
+            
+            <div class="post-container">
+                <div class="post-thumb">
+                    <img src="images/p1.png">
+                </div>
+                <div class="post-title">
+                    <h3 id="helperName">Mona L.</h3>
+                </div>
+                <div class="post-content">
+                    <p>Kan C og vitseskriving. Liker øl.</p>
+                </div>
+                <div class="post-info">
+                    <p class="textInputInfo">Når vil du?</p>
+                    <input type="text" class="textInputField" placeholder="I kveld kl. 19:30">
+                    <p class="textInputInfo">Avdeling?</p>
+                    <input type="text" class="textInputField" placeholder="Galleriet">
+                    <p class="textInputInfo">Rom?</p>
+                    <input type="text" class="textInputField" placeholder="41">
+                </div>
+                <div class="clear"></div> 
+            </div>
+        </section>
+        
+        <section class="infoSite2 section">
+            
+            <div class="post-container">
+                <div class="post-thumb">
+                    <img src="images/p2.png">
+                </div>
+                <div class="post-title">
+                    <h3 id="helperName">Harald J.</h3>
+                </div>
+                <div class="post-content">
+                    <p>Kan C, Java og SQL.</p>
+                </div>
+                <div class="clear"></div> 
+            </div>
+        </section>
+        
+        
+        
+
+    </div>
+
+
+</body>
+</html>
